@@ -27,7 +27,7 @@ public class CrossBr {
 			driver = new EdgeDriver();
 		}
 		else {
-			throw new Exception("Browser is not correct");
+			throw new Exception("This Browser is not correct");
 		}
 	}
 	
