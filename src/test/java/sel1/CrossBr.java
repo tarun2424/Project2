@@ -40,7 +40,6 @@ public class CrossBr {
 		Thread.sleep(3000);
 		driver.findElement(By.partialLinkText("Sign")).click();
 		Thread.sleep(3000);
-		//driver.findElement(By.name("username")).sendKeys("j2ee");
 		driver.findElement(By.cssSelector("[id^=strip]")).sendKeys("j2ee");
 		Thread.sleep(3000);
 		driver.findElement(By.name("password")).clear();
